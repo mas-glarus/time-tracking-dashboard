@@ -87,6 +87,15 @@ section {
 	border-radius: 15px;
 }
 
+.work:hover,
+.exercise:hover,
+.play:hover,
+.social:hover,
+.study:hover,
+.self-care:hover {
+	background-color: hsl(246, 80%, 60%);
+}
+
 .work-head,
 .exercise-head,
 .play-head,
