@@ -39,6 +39,7 @@ section {
 
 .period {
 	grid-area: period;
+	margin-bottom: 20px;
 }
 
 .work {
@@ -73,6 +74,7 @@ section {
 .study,
 .self-care {
 	background-color: hsl(235, 46%, 20%);
+	margin-bottom: 20px;
 }
 
 .work,
@@ -83,6 +85,16 @@ section {
 .self-care {
 	background-color: hsl(235, 46%, 20%);
 	border-radius: 15px;
+}
+
+.work-head,
+.exercise-head,
+.play-head,
+.social-head,
+.study-head,
+.self-care-head {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 
 .work-head {
