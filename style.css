@@ -1,0 +1,116 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: hsl(226, 43%, 10%);
+	font-family: Rubik;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	height: 600px;
+	width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+	grid-template-areas:
+		"jeremy jeremy work-head work-head play-head play-head study-head study-head"
+		"jeremy jeremy work work play play study study"
+		"jeremy jeremy work work play play study study"
+		"jeremy jeremy work work play play study study"
+		"jeremy jeremy work work play play study study"
+		"jeremy jeremy work work play play study study"
+		"jeremy jeremy exercise-head exercise-head social-head social-head self-care-head self-care-head"
+		"jeremy jeremy exercise exercise social social self-care self-care"
+		"period period exercise exercise social social self-care self-care"
+		"period period exercise exercise social social self-care self-care"
+		"period period exercise exercise social social self-care self-care"
+		"period period exercise exercise social social self-care self-care";
+	column-gap: 20px;
+}
+
+.jeremy-robson {
+	grid-area: jeremy;
+	background-color: hsl(235, 45%, 61%);
+	border-radius: 15px;
+}
+
+.period {
+	grid-area: period;
+}
+
+.work {
+	grid-area: work;
+}
+
+.exercise {
+	grid-area: exercise;
+}
+
+.play {
+	grid-area: play;
+}
+
+.social {
+	grid-area: social;
+}
+
+.study {
+	grid-area: study;
+}
+
+.self-care {
+	grid-area: self-care;
+}
+
+.period,
+.work,
+.exercise,
+.play,
+.social,
+.study,
+.self-care {
+	background-color: hsl(235, 46%, 20%);
+}
+
+.work,
+.exercise,
+.play,
+.social,
+.study,
+.self-care {
+	background-color: hsl(235, 46%, 20%);
+	border-radius: 15px;
+}
+
+.work-head {
+	grid-area: work-head;
+	background-color: hsl(15, 100%, 70%);
+}
+
+.exercise-head {
+	grid-area: exercise-head;
+	background-color: hsl(145, 58%, 55%);
+}
+
+.play-head {
+	grid-area: play-head;
+	background-color: hsl(195, 74%, 62%);
+}
+
+.social-head {
+	grid-area: social-head;
+	background-color: hsl(264, 64%, 52%);
+}
+
+.study-head {
+	grid-area: study-head;
+	background-color: hsl(348, 100%, 68%);
+}
+
+.self-care-head {
+	grid-area: self-care-head;
+	background-color: hsl(43, 84%, 65%);
+}
